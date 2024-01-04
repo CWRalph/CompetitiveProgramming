@@ -56,6 +56,9 @@ void dijkstra(int startx, int starty, int endx, int endy) {
         int y = node.y;
         int d = node.d;
 
+        vector<int> items = {1,5,6,7,8};
+        vector<int> items2(items.begin() + 3, items.begin() + 8);
+
         if (visited[y][x]) continue;
         visited[y][x] = true;
 

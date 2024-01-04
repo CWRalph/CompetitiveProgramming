@@ -54,23 +54,5 @@ int main() {
         return currentSum + (pair.second - pair.first);
     });
 
-    // for(int i = 0; i < 2; i++){
-    //     for(int j = 0; j < ranges[i].size() - 1; j++){
-    //         ranges[i+1].push_back(make_pair(ranges[i][j].second, ranges[i][j+1].second - ranges[i][j].second));
-    //     }
-    // }
-
-    // int overlap3 = std::accumulate(ranges[2].begin(), ranges[2].end(), 0, [](int currentSum, const std::pair<int, int>& pair) {
-    //     return currentSum + (pair.second - pair.first);
-    // });
-
-    // int overlap2 = std::accumulate(ranges[1].begin(), ranges[1].end(), 0, [](int currentSum, const std::pair<int, int>& pair) {
-    //     return currentSum + (pair.second - pair.first);
-    // });
-
-    // int overlap1 = std::accumulate(ranges[1].begin(), ranges[1].end(), 0, [](int currentSum, const std::pair<int, int>& pair) {
-    //     return currentSum + (pair.second - pair.first);
-    // });
-
     return 0;
 }

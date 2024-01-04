@@ -102,6 +102,7 @@
         "utility": "cpp",
         "xiosbase": "cpp",
         "xtree": "cpp",
-        "xutility": "cpp"
+        "xutility": "cpp",
+        "xstring": "cpp"
     }
 }
